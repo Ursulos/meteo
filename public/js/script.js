@@ -1,4 +1,4 @@
-const apiKey = "0c5beb76c34d1710a671424133a4f178";
+const API_KEY = CONFIG.API_KEY;
 
 searchBtn.addEventListener("click", () => {
   const city = cityInput.value.trim();
